@@ -13,6 +13,7 @@ struct HomeView: View {
     @AppStorage("onboarding") var isOnboardingViewActive: Bool = false
     @State private var isAnimating: Bool = false
     
+    
     // MARK: -Body
     var body: some View {
         VStack(spacing: 20) {
@@ -50,7 +51,6 @@ struct HomeView: View {
                     playSound(sound: "success", type: "m4a")
                     isOnboardingViewActive = true
                 }
-                
             }) {
                 Image(systemName: "arrow.triangle.2.circlepath.circle")
                     .imageScale(.large)

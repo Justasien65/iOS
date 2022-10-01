@@ -173,6 +173,7 @@ struct OnboardingView: View {
                                             buttonOffset = buttonWidth - 80
                                             isOnboardingViewActive = false
                                             playSound(sound: "chimeup", type: "mp3")
+                                            hapticFeedback.prepare()
                                             hapticFeedback.notificationOccurred(.success)
                                         } else
                                         {
