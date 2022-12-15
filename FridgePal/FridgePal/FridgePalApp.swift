@@ -1,14 +1,14 @@
 //
-//  FructusApp.swift
-//  Fructus
+//  FridgePalApp.swift
+//  FridgePal
 //
-//  Created by Roy Welborn on 10/10/22.
+//  Created by Roy Welborn on 10/18/22.
 //
 
 import SwiftUI
 
 @main
-struct FructusApp: App {
+struct FridgePalApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
