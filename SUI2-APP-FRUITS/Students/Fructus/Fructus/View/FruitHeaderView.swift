@@ -38,6 +38,6 @@ struct FruitHeaderView: View {
 struct FruitHeaderView_Previews: PreviewProvider {
     static var previews: some View {
         FruitHeaderView(fruit: fruitsData[0])
-            .previewLayout(.fixed(width: 375, height: 440))
+            .previewLayout(.fixed(width: 375, height: 400))
     }
 }

@@ -54,6 +54,7 @@ struct FruitDetailView: View {
             }//: SCROLLVIEW
             .edgesIgnoringSafeArea(.top)
         }//: NAVIGATION VIEW
+        .navigationViewStyle(StackNavigationViewStyle())
     }//: BODY
 }
 
@@ -62,5 +63,6 @@ struct FruitDetailView_Previews: PreviewProvider {
     static var previews: some View {
         FruitDetailView(fruit: fruitsData[0])
             .previewDevice("iPhone 12 Pro")
+            .preferredColorScheme(.dark)
     }
 }

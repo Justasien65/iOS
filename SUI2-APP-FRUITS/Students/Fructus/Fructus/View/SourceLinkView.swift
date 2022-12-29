@@ -33,6 +33,7 @@ struct SourceLinkView_Previews: PreviewProvider {
     static var previews: some View {
         SourceLinkView()
             .previewLayout(.sizeThatFits)
+            .preferredColorScheme(.dark)
             .padding()
     }
 }

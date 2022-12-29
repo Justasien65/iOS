@@ -64,5 +64,6 @@ struct FruitCardView_Previews: PreviewProvider {
     static var previews: some View {
         FruitCardView(fruit: fruitsData[0])
             .previewLayout(.fixed(width: 320, height: 640))
+            .preferredColorScheme(.dark)
     }
 }
