@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D055DC12A61D55900BB03CE /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D055DC02A61D55900BB03CE /* LocationModel.swift */; };
 		6D204BDB2A5F20CC00247595 /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D204BDA2A5F20CC00247595 /* InsetFactView.swift */; };
 		6D204BDD2A5F32FB00247595 /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D204BDC2A5F32FB00247595 /* InsetMapView.swift */; };
 		6D204BDF2A5F523F00247595 /* ExternalWeblinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D204BDE2A5F523F00247595 /* ExternalWeblinkView.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D055DC02A61D55900BB03CE /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		6D204BDA2A5F20CC00247595 /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 		6D204BDC2A5F32FB00247595 /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 		6D204BDE2A5F523F00247595 /* ExternalWeblinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWeblinkView.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				6DD7F66F2A5E221600A6E634 /* CoverImageModel.swift */,
 				6DD7F6762A5E343E00A6E634 /* AnimalModel.swift */,
 				6D204BE02A5F742800247595 /* VideoModel.swift */,
+				6D055DC02A61D55900BB03CE /* LocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				6D8BC62529673818008E48B5 /* AfricaApp.swift in Sources */,
 				6D8BC649296771AF008E48B5 /* VideoListView.swift in Sources */,
 				6D204BE12A5F742800247595 /* VideoModel.swift in Sources */,
+				6D055DC12A61D55900BB03CE /* LocationModel.swift in Sources */,
 				6DD7F6682A5E10D400A6E634 /* GalleryView.swift in Sources */,
 				6DD7F67D2A5E459700A6E634 /* InsetGalleryView.swift in Sources */,
 				6DD7F6732A5E241000A6E634 /* CodableBundleExtension.swift in Sources */,
@@ -423,7 +427,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,7 +459,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
