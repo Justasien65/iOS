@@ -15,9 +15,8 @@ struct CreditsView: View {
         .frame(width: 128, height: 128)
       
       Text("""
-  Copyright © Robert Petras
+  Copyright © Roy Welborn
   All right reserved
-  Better Apps ♡ Less Code
   """)
         .font(.footnote)
         .multilineTextAlignment(.center)
