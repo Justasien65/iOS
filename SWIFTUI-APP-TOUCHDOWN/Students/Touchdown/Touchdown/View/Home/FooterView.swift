@@ -18,7 +18,7 @@ struct FooterView: View {
                 .renderingMode(.template)
                 .foregroundColor(.gray)
                 .layoutPriority(0)
-            Text("Copyright © Roy Welborn\nAll Rights Reserved")
+            Text("Copyright 2023 © Roy Welborn\nAll Rights Reserved")
                 .multilineTextAlignment(.center)
                 .font(.footnote)
                 .fontWeight(.bold)
